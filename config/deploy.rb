@@ -20,7 +20,7 @@ set :keep_releases, 5
 set :branch, 'main'
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/railstoshark"
+# set :deploy_to, "/var/www/railstoshark"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
