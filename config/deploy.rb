@@ -17,10 +17,10 @@ set :keep_releases, 5
 # append :linked_files, 'config/database.yml', 'config/secrets.yml'
 
 # Default branch is :master
-ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+set :branch, 'main'
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, "/var/www/railstoshark"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
